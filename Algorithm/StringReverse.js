@@ -4,11 +4,24 @@
  // Third :  Convert back this array inside string.
 
 
- function rev(str){
-    const arr = str.split('');
-    arr.reverse();
-    const res = arr.join('')
-    return res;
- }
+//  function rev(str){
+//     const arr = str.split('');
+//     arr.reverse();
+//     const res = arr.join('')
+//     return res;
+//  }
 
- console.log( rev("Inzamam"))
+//  console.log( rev("Inzamam"))
+
+// Alternate and simple way to reverse String
+
+function rev(str){
+
+    let res = " ";
+    for (let index = 0; index < str.length; index++) {
+        const element = str[index];
+        res = element + res;
+        
+    }
+    return res;
+}

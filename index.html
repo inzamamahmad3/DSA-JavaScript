@@ -9,14 +9,18 @@
 <body>
     <h1 style="text-align: center ;">Hello World</h1>
     <script>
-         function rev(str){
-    const arr = str.split('');
-    arr.reverse();
-    const res = arr.join('')
-    return res;
- }
+        
+        function rev(str){
 
- console.log( rev("Inzamam"))
+        let res = " ";
+        for (let index = 0; index < str.length; index++) {
+        const element = str[index];
+        res = element + res;
+    
+        }
+return res;
+}
+     console.log(rev("inzi"))
     </script>
 </body>
 </html>
