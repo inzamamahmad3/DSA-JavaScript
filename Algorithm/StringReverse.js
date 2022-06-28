@@ -3,7 +3,7 @@
  // Second: Then use reverse method in array
  // Third :  Convert back this array inside string.
 
-
+//               <-------------------BY Function--------------------->
 //  function rev(str){
 //     const arr = str.split('');
 //     arr.reverse();
@@ -14,6 +14,8 @@
 //  console.log( rev("Inzamam"))
 
 // Alternate and simple way to reverse String
+
+//               <-------------------BY For Loop--------------------->
 
 function rev(str){
 
